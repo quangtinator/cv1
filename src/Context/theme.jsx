@@ -4,13 +4,13 @@ import PropTypes from "prop-types";
 const ThemeContext = React.createContext();
 
 const ThemeProvider = ({ children }) => {
-  const [themename, setthemename] = React.useState("light");
-  const toggeltheme = () => {
-    themename === "light" ? setthemename("dark") : setthemename("light");
+  const [themeName, setThemeName] = React.useState("dark");
+  const toggleTheme = () => {
+    themeName === "light" ? setThemeName("dark") : setThemeName("light");
   };
 
   return (
-    <ThemeContext.Provider value={[{ themename, toggeltheme }]}>
+    <ThemeContext.Provider value={[{ themeName, toggleTheme }]}>
       {children}
     </ThemeContext.Provider>
   );

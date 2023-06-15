@@ -12,12 +12,12 @@ import { Contact } from "./Components/Contact/Contact";
 import { Footer } from "./Components/Footer/Footer";
 import { ScrollToTop } from "./Components/ScrollToTop/ScrollToTop";
 export default function App() {
-  const [{ themename }] = React.useContext(ThemeContext);
+  const [{ themeName }] = React.useContext(ThemeContext);
   React.useEffect(() => {
     Aos.init({ duration: 1500 });
   }, []);
   return (
-    <div id="top" className={`${themename} app`}>
+    <div id="top" className={`${themeName} app`}>
       <section id="#home">
         <Header />
       </section>
