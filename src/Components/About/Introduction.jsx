@@ -1,65 +1,69 @@
 import React from "react";
 import "./Introduction.css";
-import ExitToAppIcon from "@material-ui/icons/ExitToApp";
+import FoodIcon from "@material-ui/icons/Restaurant";
+import SportIcon from "@material-ui/icons/SportsTennis";
+import GameIcon from "@material-ui/icons/Games";
 import { ThemeContext } from "../../Context/theme";
-import profilePic from "../../assets/Photo_fw14_056.png";
+import profilePic from "../../assets/ava.jpg";
 
 
 export const Introduction = () => {
-  const [{ themename }] = React.useContext(ThemeContext);
+  const [{ themeName }] = React.useContext(ThemeContext);
 
   return (
     <>
       <section id="#about">
         <div className="section" data-aos="fade-right">
           <h2 className="section__title">
-            About <span className="different">Me</span>
+            <span className="different">About 🔎</span>
           </h2>
-          <div className={"introduction " + themename}>
+          <div className={"introduction " + themeName}>
             <div className="introduction_logocontainer">
               <img src={profilePic} alt="Images" />
             </div>
             <div className="introduction_datacontainer">
               <h4>
-                Hi Everyone, My name is{" "}
-                <span className="different">Shreyas Khakal </span> and I am from{" "}
+                My name is{" "}
+                <span className="different">Quang Phung </span> and I am from{" "}
                 <span className="different">
                   {" "}
-                  Ahmednagar, Maharashtra (India)
+                  Hanoi, Vietnam
                 </span>
-                . I have completed my graduation in BTech (Agril. Engineering)
-                from{" "}
+                . I have completed my bachelor degree in 
                 <span className="different">
-                  VNMKV Agricultural University, Parbhani (MH)
+                  {" "}
+                  Computer Science
+                </span> at 
+                <span className="different">
+                  {" "}
+                  RWTH Aachen University.
                 </span>
-                . Then I joined full stack development course by{" "}
-                <span className="different">Masai School</span> a military type
-                coding school.
+                  During my university years, I have learnt a lot about coding through 
+                  various courses and projects. I am currenty improving myself in order
+                  to tackle bigger challenges in the field of 
+                <span className="different">
+                  {" "}
+                  Information Technology.
+                </span>
               </h4>
-              <h4>Terms That can describe me apart form Coding :</h4>
+              <h4>Things to keep me sane :</h4>
               <h4 className="different">
                 <span className="icons">
-                  <ExitToAppIcon />
+                  <GameIcon />
                 </span>
-                Entrepreneure{" "}
-              </h4>
-              <h4 className="different">
-                <span className="icons">
-                  <ExitToAppIcon />
-                </span>
-                Chess Enthusiast{" "}
-              </h4>
-              <h4 className="different">
-                <span className="icons">
-                  <ExitToAppIcon />
-                </span>
-                YouTuber{" "}
+                Video Games 
               </h4>
               <h4 className="different">
                 <span className="icons">
-                  <ExitToAppIcon />
+                  <SportIcon />
                 </span>
-                Poet{" "}
+                Watching Sports
+              </h4>
+              <h4 className="different">
+                <span className="icons">
+                  <FoodIcon />
+                </span>
+                Cooking
               </h4>
             </div>
           </div>

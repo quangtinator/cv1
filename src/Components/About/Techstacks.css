@@ -1,12 +1,15 @@
 .main {
-  margin-top: 4em;
+  margin-top: 6.5em;
 }
+
 .techsection {
+  display: flex;
+  flex-wrap: wrap;
   width: 100%;
   text-align: center;
+  justify-content: center;
   background-color: var(--clr-bg);
   height: 50vh;
-  /* max-height: 400px; */
 }
 
 .techsection > div {
@@ -35,11 +38,10 @@
 }
 
 .techsection > div > svg {
-  /* height: 50%;
-  width: 50%; */
   font-size: 8vh;
   color: var(--clr-primary);
 }
+
 .techsection > div > h5 {
   position: relative;
   top: 8px;

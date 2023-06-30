@@ -2,11 +2,10 @@ import React from "react";
 import "./About.css";
 import { Type } from "./Type";
 import { Greetings } from "./Greetings";
-import GitHubIcon from "@material-ui/icons/GitHub";
+import ResumeIcon from "@material-ui/icons/Description";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
-import PhoneIcon from "@material-ui/icons/Phone";
-import TwitterIcon from "@material-ui/icons/Twitter";
+import FacebookIcon from "@material-ui/icons/Facebook";
 import { Introduction } from "./Introduction";
 import { Timeline } from "./Timeline";
 import { Techstacks } from "./Techstacks";
@@ -19,72 +18,52 @@ export const About = () => {
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">
-          Passionate and creative Full Stack Developer having proficiency in
-          MERN Stack. Attired with a variety of tools & technologies and keen to
-          learn new one. Worked on wordpress since last 3 years and delivered
-          15+ projects till now.
+          Hard-working, ambitious and results-oriented professional in the making. Proficient in a wide range of technologies 
+          and always willing to learn new ones.
         </p>
-        <div className="about__contact center">
+        <div className="about__contact"> 
           <a
-            href="https://github.com/Shreyasgkhakal100"
-            aria-label="github"
+            href="https://www.facebook.com/phungvunhatquang/"
+            aria-label="facebook"
+            className="link link--icon"
             target="_blank"
             rel="noreferrer"
-            className="link link--icon"
           >
-            <GitHubIcon />
+            <FacebookIcon fontSize="large"/>
           </a>
           <a
-            href="mailto:shreyasgkhakal100@gmail.com"
+            href="https://drive.google.com/file/d/1ZGd4tEGiIrnX7-CFe_tCr9O9DW3-un_L/view?usp=drive_link"
+            aria-label="resume"
+            className="link link--icon"
             target="_blank"
             rel="noreferrer"
-            aria-label="mail"
-            className="link link--icon"
           >
-            <EmailIcon />
+            <ResumeIcon fontSize="large"/>
           </a>
           <a
-            href="tel:+918668613593"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="phone"
-            className="link link--icon"
-          >
-            <PhoneIcon />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/shreyas-g-khakal/"
+            href="https://www.linkedin.com/in/vu-nhat-quang-phung-77144b162/"
             aria-label="linkedin"
             className="link link--icon"
             target="_blank"
             rel="noreferrer"
           >
-            <LinkedInIcon />
+            <LinkedInIcon fontSize="large"/>
           </a>
           <a
-            href="https://twitter.com/KhakalShreyas"
-            aria-label="twitter"
-            className="link link--icon"
+            href="mailto:quang.phung@rwth-aachen.de"
             target="_blank"
             rel="noreferrer"
+            aria-label="mail"
+            className="link link--icon"
           >
-            <TwitterIcon />
+            <EmailIcon fontSize="large"/>
           </a>
         </div>
-
-        <button
-          className="btnResume"
-          onClick={() => {
-            window.open(
-              "https://drive.google.com/file/d/1O7O6dgBNriadNFoYRj8kHr6-dyPyoG4n/view?usp=sharing"
-            );
-          }}
-        >
-          Resume
-        </button>
       </div>
       <Introduction />
-      <Timeline />
+      <section id="#timeline">
+        <Timeline />
+      </section>
       <section id="#skills">
         <Techstacks />
       </section>

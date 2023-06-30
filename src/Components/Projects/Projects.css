@@ -1,3 +1,7 @@
+.push_down {
+  padding-top: 7rem;
+}
+
 .projects_container {
   width: 80%;
   margin: 0 auto;
@@ -119,7 +123,6 @@
 @media (max-width: 800px) {
   .project {
     flex-direction: column;
-    /* height: 100vh; */
   }
   .project_videocontainer {
     flex-basis: 40%;

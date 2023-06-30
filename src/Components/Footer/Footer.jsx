@@ -3,17 +3,15 @@ import "./Footer.css";
 import { ThemeContext } from "../../Context/theme";
 
 export const Footer = () => {
-  const [{ themename }] = React.useContext(ThemeContext);
+  const [{ themeName }] = React.useContext(ThemeContext);
 
   return (
     <>
-      <div className={"section " + themename}>
-        <a href="/" rel="noreferrer" target="_blank">
+      <div className={"section " + themeName}>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" rel="noreferrer" target="_blank">
           <div className="footerBox">
             <h3 className="footer">
-              Made with{" "}
-              <span style={{ color: `red`, background: `transparent` }}>❤</span>{" "}
-              By Shreyas
+              Powered by 👌
             </h3>
           </div>
         </a>

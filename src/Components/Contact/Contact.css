@@ -1,6 +1,6 @@
 .contactcontainer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding-top: 2em;
   width: 450px;
   border-radius: 20px;
