@@ -10,8 +10,9 @@ import {
   SiTensorflow,
   SiTableau,
   SiJira,
-  SiMicrosoftoffice
+  SiTypescript
 } from "react-icons/si";
+
 import { DiCss3, DiMongodb } from "react-icons/di";
 import { SiJavascript, SiGnubash } from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
@@ -37,6 +38,11 @@ export const Techstacks = () => {
             <h5>Javascript</h5>
           </div>
 
+          <div>
+            <SiTypescript />
+            <h5>Typescript</h5>
+          </div>
+          
           <div>
             <FaReact />
             <h5>React</h5>
@@ -106,11 +112,7 @@ export const Techstacks = () => {
             <SiJira />
             <h5>Jira</h5>
           </div>
-
-          <div>
-            <SiMicrosoftoffice />
-            <h5>Microsoft Office</h5>
-          </div>
+          
         </div>
       </div>
     </>
