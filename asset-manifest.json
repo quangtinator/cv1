@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/cvweb/static/css/main.ef4c5fba.css",
-    "main.js": "/cvweb/static/js/main.9b8bf4cd.js",
+    "main.js": "/cvweb/static/js/main.94b6a3e0.js",
     "static/media/ava.jpg": "/cvweb/static/media/ava.cf973b9390a74e46244c.jpg",
     "static/media/q_logo.svg": "/cvweb/static/media/q_logo.27e39100af5c85ad47fad0fe3d440f7b.svg",
     "index.html": "/cvweb/index.html",
     "main.ef4c5fba.css.map": "/cvweb/static/css/main.ef4c5fba.css.map",
-    "main.9b8bf4cd.js.map": "/cvweb/static/js/main.9b8bf4cd.js.map"
+    "main.94b6a3e0.js.map": "/cvweb/static/js/main.94b6a3e0.js.map"
   },
   "entrypoints": [
     "static/css/main.ef4c5fba.css",
-    "static/js/main.9b8bf4cd.js"
+    "static/js/main.94b6a3e0.js"
   ]
 }
