@@ -2,7 +2,7 @@ import React from "react";
 import "./Contact.css";
 import { CgMail } from "react-icons/cg";
 import { ThemeContext } from "../../Context/theme";
-import { FaLinkedin } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 export const Contact = () => {
   const [{ themeName }] = React.useContext(ThemeContext);
@@ -32,6 +32,14 @@ export const Contact = () => {
               rel="noreferrer"
             >
               <CgMail className="email" />
+            </a>
+
+            <a
+              href="https://github.com/quangtinator"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaGithub className="github" />
             </a>
           </div>
         </div>

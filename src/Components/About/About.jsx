@@ -5,7 +5,7 @@ import { Greetings } from "./Greetings";
 import ResumeIcon from "@material-ui/icons/Description";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
-import FacebookIcon from "@material-ui/icons/Facebook";
+import GitHubIcon from '@material-ui/icons/GitHub';
 import { Introduction } from "./Introduction";
 import { Timeline } from "./Timeline";
 import { Techstacks } from "./Techstacks";
@@ -23,13 +23,13 @@ export const About = () => {
         </p>
         <div className="about__contact"> 
           <a
-            href="https://www.facebook.com/phungvunhatquang/"
-            aria-label="facebook"
+            href="https://github.com/quangtinator"
+            aria-label="github"
             className="link link--icon"
             target="_blank"
             rel="noreferrer"
           >
-            <FacebookIcon fontSize="large"/>
+            <GitHubIcon fontSize="large"/>
           </a>
           <a
             href="https://drive.google.com/file/d/1ZGd4tEGiIrnX7-CFe_tCr9O9DW3-un_L/view?usp=drive_link"
